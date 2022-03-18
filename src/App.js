@@ -1,10 +1,11 @@
 import React from 'react'
+import ButtonContainer from './Components/ButtonContainer'
 
 const App = () => {
   return (
-    <div>
-      App
-    </div>
+    <>
+      <ButtonContainer/>
+    </>
   )
 }
 
