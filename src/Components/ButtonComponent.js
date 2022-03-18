@@ -1,10 +1,10 @@
 import React from 'react'
 import {Button} from '@mui/material'
 
-const ButtonComponent = ({buttonName}) => {
+const ButtonComponent = ({buttonName,buttonColor, setColorData}) => {
   return (
     <>
-      <Button variant="contained" color="primary">{buttonName}</Button>
+      <Button variant="contained" onClick={()=>setColorData(buttonColor)}>{buttonName}</Button>
     </>
   )
 }
