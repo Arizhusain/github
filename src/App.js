@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      App file
+      <h1> App file</h1>
     </div>
   )
 }
