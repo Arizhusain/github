@@ -1,13 +1,9 @@
-import React, { useState } from 'react'
-import ButtonContainer from './Components/ButtonContainer'
+import React from 'react'
 
 const App = () => {
-  
-  const [colorData, setColorData] = useState("");
-
   return (
-    <div style={{backgroundColor:`${colorData}`, height:'100vh', width:'100vw'}}>
-      <ButtonContainer setColorData={setColorData}/>
+    <div>
+      <h1> App file</h1>
     </div>
   )
 }
