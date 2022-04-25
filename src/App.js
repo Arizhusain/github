@@ -7,6 +7,9 @@ const App = () => {
       <h2>New entry</h2>
       <p>lorem301</p>
       <p>lorem301</p>
+      <p>lorem301</p>
+      <p>lorem301</p>
+      <p>lorem301</p>
     </div>
   )
 }
